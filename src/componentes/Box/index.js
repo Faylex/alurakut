@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
 const Box = styled.div`
-  background: #ffffff;
+  background: #d9d9d9;
   border: 8px;
-
+  border-radius: 10px;
   padding: 16px;
 
   /* CSS Pré-Pronto */
@@ -11,7 +11,7 @@ const Box = styled.div`
   margin-bottom: 10px;
   .boxLink {
     font-size: 14px;
-    color: #2E7BB4;
+    color: #ff9900;
     text-decoration: none;
     font-weight: 800;
   }
@@ -40,14 +40,14 @@ const Box = styled.div`
   }
   input {
     width: 100%;
-    background-color: #F4F4F4;
+    background-color: #ff9900;
     color: #333333;
     border: 0;
     padding: 14px 16px;
     margin-bottom: 14px;
     border-radius: 10000px;
     ::placeholder {
-      color: #333333;
+      color: #FFFFFF;
       opacity: 1;
     }
   }
@@ -56,7 +56,7 @@ const Box = styled.div`
     padding: 8px 12px;
     color: #FFFFFF;
     border-radius: 10000px;
-    background-color: #6F92BB;
+    background-color: #ff9900;
   }
 `;
 
